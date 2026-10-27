@@ -1,16 +1,42 @@
-### Hi there 👋, This is Siri
+# Hi, I'm Siri 👋
 
-<!--
-**sirichandana-v/sirichandana-v** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Full-stack software engineer building AI agent platforms, production RAG systems, and distributed services.**<br>
+Software Engineer at **AT&T** · ex-**Amazon** SDE Intern · Founding Engineer at **Mimiway** · MS CS, Seattle University
 
-Here are some ideas to get you started:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/siri-chandana-v-09a0a9220)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sirichandanavemaraju@gmail.com)
+![Location](https://img.shields.io/badge/San%20Francisco%2C%20CA-555?style=flat)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### What I'm working on
+
+- **AI governance at AT&T** — built a governance portal from 0 → 1 (Next.js, TypeScript, FastAPI) that replaced IBM Watson and cut AI use-case approvals from months to days
+- **Fraud case management** — shipped core modules of a system that processed 4M cases in six months, resolving 45% more cases at 28% less time per decision
+- **Local-first AI memory & agents** — open-source experiments below
+
+### Featured projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [**VeriMem**](https://github.com/sirichandana-v/memgraph) | Local semantic memory for LLM agents: hybrid BM25 + dense retrieval, cross-encoder reranking, optional entity graph. **90.3%** on ConvoMem end-to-end Q&A with an open model, no API keys on the core path | Python · ChromaDB |
+| [**DB_Agent**](https://github.com/sirichandana-v/DB_Agent) | Natural-language → SQL bridge: a local Ollama model writes `SELECT`s that run through a sanitized MySQL MCP sidecar. The model never touches the DB directly | C# · MCP · Ollama |
+| [**MimiWay**](https://github.com/sirichandana-v/MimiWay) | AI restaurant assistant taken from concept to 15 restaurants. RAG over menu data, multi-tenant auth, Dockerized CI/CD | TypeScript · FastAPI · FAISS |
+| [**Chess Psychology Analyzer**](https://github.com/sirichandana-v/analyzer) | Analyzes your chess games with an LLM to surface psychological patterns | JavaScript · Vercel |
+
+### Tech I use
+
+**Languages:** TypeScript · JavaScript · Python · Java · SQL<br>
+**Full-stack:** React · Next.js · Node.js · Express · FastAPI · WebSockets · RabbitMQ<br>
+**AI systems:** LLM agents & tool use · LangGraph · RAG · MCP · real-time voice<br>
+**Data & cloud:** PostgreSQL · MongoDB · ChromaDB / FAISS · AWS (Lambda, SQS/SNS, DynamoDB, KMS) · Docker · Kubernetes · GitHub Actions
+
+### A few things I care about
+
+- Making systems fast: killing N+1 queries, blocking scans, and async bugs (one refactor took a 5,000-line module to 600)
+- Shipping quickly without breaking things: requirements in the morning, demo in the afternoon, production by evening
+- Testing what matters: unit, integration, and chaos tests for an ML auth pipeline at Amazon that became the team standard
+
+---
+
+<sub>Open to conversations about AI infrastructure, agent systems, and full-stack engineering.</sub>
