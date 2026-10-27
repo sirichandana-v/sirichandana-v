@@ -11,7 +11,7 @@ Software Engineer at **AT&T** · ex-**Amazon** SDE Intern · Founding Engineer a
 
 ### What I'm working on
 
-- **AI governance at AT&T** — built a governance portal from 0 → 1 (Next.js, TypeScript, FastAPI) that replaced IBM Watson and cut AI use-case approvals from months to days
+- **AI governance at AT&T** — built a governance portal from 0 → 1 (Next.js, TypeScript, FastAPI) and cut AI use-case approvals from months to days
 - **Fraud case management** — shipped core modules of a system that processed 4M cases in six months, resolving 45% more cases at 28% less time per decision
 - **Local-first AI agents** — open-source experiments below
 
