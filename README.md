@@ -19,8 +19,8 @@ Software Engineer at **AT&T** · ex-**Amazon** SDE Intern · Founding Engineer a
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**MimiWay**](https://github.com/sirichandana-v/MimiWay) | AI restaurant assistant taken from concept to 15 restaurants. RAG over menu data, multi-tenant auth, Dockerized CI/CD · [▶ Watch demo](https://www.loom.com/share/6bdd4bb33b9443ebabe9c3119d29d8e7) | TypeScript · FastAPI · FAISS |
 | [**DB_Agent**](https://github.com/sirichandana-v/DB_Agent) | Natural-language → SQL bridge: a local Ollama model writes `SELECT`s that run through a sanitized MySQL MCP sidecar. The model never touches the DB directly | C# · MCP · Ollama |
-| [**MimiWay**](https://github.com/sirichandana-v/MimiWay) | AI restaurant assistant taken from concept to 15 restaurants. RAG over menu data, multi-tenant auth, Dockerized CI/CD | TypeScript · FastAPI · FAISS |
 | [**Chess Psychology Analyzer**](https://github.com/sirichandana-v/analyzer) | Analyzes your chess games with an LLM to surface psychological patterns | JavaScript · Vercel |
 
 ### Tech I use
